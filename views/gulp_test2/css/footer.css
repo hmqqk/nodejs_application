@@ -1,0 +1,84 @@
+
+.clear {
+  clear: both; }
+
+.footer {
+  font-size: 12px; }
+  .footer .f1 {
+    width: 100%;
+    height: 38px;
+    padding-top: 8px;
+    text-align: center;
+    background: #FFBA00;
+    float: left; }
+    .footer .f1 .chooseItems {
+      position: relative;
+      left: 9px;
+      width: 47px;
+      height: 31px;
+      font-size: 12px;
+      padding-left: 15px; }
+    .footer .f1 .items {
+      position: absolute;
+      display: none;
+      left: 753px;
+      z-index: 10;
+      padding-bottom: 10px;
+      background: white; }
+      .footer .f1 .items a {
+        display: block;
+        width: 67px;
+        color: gray;
+        line-height: 20px; }
+    .footer .f1 i {
+      position: relative;
+      display: inline-block;
+      left: -5px;
+      top: 3px;
+      width: 10px;
+      height: 10px;
+      background: url(../images/angle.png) no-repeat 0 0; }
+    .footer .f1 input {
+      position: relative;
+      width: 300px;
+      height: 30px;
+      padding-right: 5px;
+      border: none; }
+    .footer .f1 .search2 {
+      position: relative;
+      left: -24px;
+      width: 24px;
+      height: 30px;
+      background: url(../images/bs.png) no-repeat 0 5px;
+      border: none; }
+  .footer .f2 {
+    width: 100%;
+    height: 218px;
+    background: pink; }
+    .footer .f2 .main {
+      width: 924px;
+      margin: 0 auto;
+      padding-top: 30px; }
+      .footer .f2 .main .one li {
+        float: left;
+        list-style-type: none;
+        width: 100px;
+        height: 14.4px;
+        color: white;
+        text-align: left;
+        display: block; }
+        .footer .f2 .main .one li a {
+          display: block;
+          color: #AAAAAA;
+          text-align: left;
+          line-height: 20px; }
+      .footer .f2 .main div {
+        float: right; }
+        .footer .f2 .main div label {
+          color: white; }
+        .footer .f2 .main div p {
+          color: #AAAAAA; }
+          .footer .f2 .main div p a {
+            color: #AAAAAA; }
+
+/*# sourceMappingURL=footer.css.map */
